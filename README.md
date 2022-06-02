@@ -1,0 +1,1 @@
+Portfolio con proyectos destacables en React, JS, HTML, CSS, algunos usando Redux..

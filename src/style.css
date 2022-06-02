@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.Quiz{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    background-color: #FFFBDE;
+    background-image: url("./images/blob1.svg"), url("./images/blob2.svg");
+    background-position: 100% 0, 0 100%;
+    /*First item, Second item*/
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color:#807949;
+}
+.QuizzicalPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.QuizzicalPage > h1{
+    margin-bottom: 7px;
+}
+.QuizzicalPage > h3{
+    margin-top: 0;
+    margin-bottom: 29px;
+}
+.QuizButton{
+    width: 150px;
+    height: 45px;
+    background-color: #807949;
+    border: none;
+    border-radius: 10px;
+    color: #FFFBDE;
+    font-size: 20px;
+}
+
+.QuestOptions{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.QuestOptions > *{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/*Buttons:*/
+.QuestOptionsRadio{
+    display: none;
+}
+.QuestOptionsButton{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    height: 30px;
+    width: auto;
+    
+    border-radius: 5px;
+    color: #FFFBDE;
+}
+.QuestOptionsButton:hover, .QuizButton:hover{
+    box-shadow: 0px 0px 3px black;
+}
+
+.QuestSubmit{
+    display: flex;
+    justify-content: center;
+}
+.QuestSubmit > *{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.QuestValid{
+    background-color: #BCD4BF;
+}
+.QuestInvalid{
+    background-color: #d4c4bc;
+}
+.Quest > h3{
+    text-align: start;
+    margin: 10px;
+}
+.Quest{
+    margin: 20px;
+}
+.Questions{
+    width: 80%;
+}
