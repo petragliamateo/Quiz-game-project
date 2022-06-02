@@ -1,1 +1,2 @@
-Portfolio con proyectos destacables en React, JS, HTML, CSS, algunos usando Redux..
+Quizzical, un juego de Quiz que usa la API de preguntas y respuestas.
+Proyecto creado con create-react-app.
